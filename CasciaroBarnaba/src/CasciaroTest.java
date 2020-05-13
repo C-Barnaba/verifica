@@ -7,14 +7,14 @@ class CasciaroTest {
 	@Test
 	void testCasciaroMet() {
 		CasciaroClass c=new CasciaroClass();
-		int n=11;
+		int n=1;
 		int risAtteso=2187;
 		float risOttenuto=c.CasciaroMet(3, 7);
 	}
 	@Test
 	void testCasciaroMet2() {
 		CasciaroClass c=new CasciaroClass();
-		int n=0;
+		int n=44;
 		int risAtteso=0;
 		float risOttenuto=c.CasciaroMet(0, 1);
 	}

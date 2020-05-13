@@ -7,11 +7,11 @@ public class CasciaroClass {
 	public CasciaroClass() {}
 	
 	public float CasciaroMet (int b, int e) {
-		int val1=1; 		
-			for (int i=1; i<=b; i++){
-				val1 = val1 * b;
-			}
-			return val1;
+		int val1=b;   // val1 deve essere uguale a b non a uno
+		for (int i=1; i<e; i++){
+		val1 = val1 * b;
+		}
+		return val1;
 		}
 
 
